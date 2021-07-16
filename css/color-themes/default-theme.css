@@ -64,8 +64,6 @@ a,
 
 .portfolio-item-two .overlay-inner h3 a:hover,
 
-.portfolio-item-two .overlay-inner .content .tags,
-
 .testimonial-block-two .inner-box .quote-icon,
 
 .accordion-box .block .icon-outer,
@@ -430,7 +428,7 @@ a,
 
 .fluid-section-one .title-column:before{
 
-	background-color:rgba(255,178,0,0.80);
+	background-color:#97c9f1cc;
 
 }
 
