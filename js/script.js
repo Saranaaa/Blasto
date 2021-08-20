@@ -76,12 +76,12 @@
 												  <h2>What We Do</h2>
 											  </div>
 											  <ul class="footer-lists">
-												  <li><a href="mechanical.html">Drilling</a></li>
-												  <li><a href="mechanical.html">Earth Work </a></li>
-												  <li><a href="mechanical.html">Geotechnical</a></li>
-												  <li><a href="mechanical.html">Laboratory Tests </a></li>
-												  <li><a href="mechanical.html">Geophysical</a></li>
-												  <li><a href="mechanical.html">Geodetic</a></li>
+												  <li><a href="drilling.html">Drilling</a></li>
+												  <li><a href="earthwork.html">Earth Work </a></li>
+												  <li><a href="geotech.html">Geotechnical</a></li>
+												  <li><a href="labtest.html">Laboratory Tests </a></li>
+												  <li><a href="geophysic.html">Geophysical</a></li>
+												  <li><a href="geodetic.html">Geodetic</a></li>
 											  </ul>
 										  </div>
 									  </div>
@@ -96,24 +96,22 @@
 											  <div class="widget-content">
 
 												  <article class="post">
-													  <figure class="post-thumb"><a href="news-detail.html"><img
-																  src="images/resource/news-thumb-1.jpg" alt=""></a></figure>
-													  <div class="text"><a href="news-detail.html">Modernizing the Grid</a>
+													  <figure class="post-thumb"><a href="projects.html"><img
+																  src="images/gallery/6.jpg" alt=""></a></figure>
+													  <div class="text"><a href="projects.html">Gold Mine Exploration Drilling</a>
 													  </div>
 													  <ul class="post-info">
-														  <li><span class="icon fa fa-calendar"></span>Oct 23, 2017</li>
-														  <!-- <li><span class="icon fa fa-comment-o"></span>25</li> -->
+														  <li><span class="icon fa fa-calendar"></span>June 23, 2020</li>
 													  </ul>
 												  </article>
 
 												  <article class="post">
-													  <figure class="post-thumb"><a href="news-detail.html"><img
-																  src="images/resource/news-thumb-2.jpg" alt=""></a></figure>
-													  <div class="text"><a href="news-detail.html">Successful Engineering</a>
+													  <figure class="post-thumb"><a href="projects.html"><img
+																  src="images/gallery/7.jpg" alt=""></a></figure>
+													  <div class="text"><a href="projects.html">Gadir Geophysical İnvestigation</a>
 													  </div>
 													  <ul class="post-info">
-														  <li><span class="icon fa fa-calendar"></span>Oct 23, 2017</li>
-														  <!-- <li><span class="icon fa fa-comment-o"></span>16</li> -->
+														  <li><span class="icon fa fa-calendar"></span>Oct 14, 2019</li>
 													  </ul>
 												  </article>
 

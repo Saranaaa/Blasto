@@ -77,8 +77,7 @@
 			},
 			
 			load: {
-				filter: 'all',
-				sort: false
+				filter: '.current'
 			},
 			
 			/* Private Properties

@@ -212,7 +212,7 @@ p {
 .auto-container {
   position: static;
 
-  max-width: 1200px;
+  max-width: 1400px;
 
   padding: 0px 15px;
 
@@ -2595,16 +2595,19 @@ s .main-header .main-box .logo-box .logo img {
   padding: 0px;
 
   float: left;
+  height: 345px;
 }
 
 .product-section .lower-box .image-column .image {
   position: relative;
+  height: 100%;
 }
 
 .product-section .lower-box .image-column .image img {
   position: relative;
-
+  height: 100%;
   width: 100%;
+  object-fit: cover;
 
   display: block;
 }
@@ -3760,6 +3763,11 @@ s .main-header .main-box .logo-box .logo img {
 
   overflow: hidden;
 }
+.news-widget .post .post-thumb img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
 
 .news-widget .post .text {
   position: relative;
@@ -4072,6 +4080,7 @@ s .main-header .main-box .logo-box .logo img {
   display: block;
 
   width: 100%;
+  object-fit: cover;
 }
 
 .default-portfolio-item .overlay-box {
@@ -4166,7 +4175,6 @@ s .main-header .main-box .logo-box .logo img {
 }
 .default-portfolio-item .overlay-inner h3 a,
 .default-portfolio-item .overlay-inner h5 a {
-  margin: 30px 50px;
 
   display: inline-block;
 
@@ -4180,12 +4188,6 @@ s .main-header .main-box .logo-box .logo img {
 
   -o-transition: all 500ms ease;
   font-weight: 600;
-}
-@media screen and (max-wdith: 600px) {
-  .default-portfolio-item .overlay-inner h3 a,
-  .default-portfolio-item .overlay-inner h5 a {
-    margin: 30px 20px;
-  }
 }
 
 .default-portfolio-item .overlay-inner h3 a:hover,
@@ -4588,6 +4590,7 @@ s .main-header .main-box .logo-box .logo img {
 
 .welcome-section .image-column .image {
   position: relative;
+  height: 80%;
 }
 
 .welcome-section .image-column .image:before {
@@ -4614,7 +4617,8 @@ s .main-header .main-box .logo-box .logo img {
   position: relative;
 
   width: 100%;
-
+  height: 100%;
+  object-fit: cover;
   display: block;
 }
 
@@ -7189,6 +7193,7 @@ s .main-header .main-box .logo-box .logo img {
 
 .services-single .inner-box .image {
   position: relative;
+  box-shadow: 2px 3px 20px 7px #9c9cb899;
 }
 
 .services-single .inner-box .image img {
