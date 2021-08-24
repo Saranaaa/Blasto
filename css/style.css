@@ -7253,6 +7253,9 @@ s .main-header .main-box .logo-box .logo img {
 
   padding-top: 28px;
 }
+.services-single .inner-box .lower-content p,.services-single .inner-box .lower-content ul>li{
+  font-size: 17px;
+}
 
 .services-single .inner-box .lower-content h2 {
   position: relative;
