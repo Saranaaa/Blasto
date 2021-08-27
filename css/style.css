@@ -9210,37 +9210,15 @@ s .main-header .main-box .logo-box .logo img {
   transition: all 300ms ease;
 }
 
-.comming-soon .emailed-form .form-group input[type="submit"],
-.comming-soon .emailed-form button {
-  position: absolute;
 
-  right: 0px;
 
-  top: 0px;
-
-  width: 195px;
-
-  height: 80px;
-
-  line-height: 40px;
-
-  color: #ffffff;
-
-  font-size: 18px;
-
-  font-weight: 700;
-
-  text-align: center;
-
-  background: #97c9f1;
-
-  text-transform: uppercase;
-
-  border-radius: 0px 50px 50px 0px;
-
-  font-family: "Arimo", sans-serif;
+button[name="submit-form"] {
+  outline: none;
+  transition: .4s;
 }
-
+button[name="submit-form"]:active{
+  background-color: rgb(57, 79, 175);
+}
 /*Sidebar Range slider */
 
 .range-slider-one {
