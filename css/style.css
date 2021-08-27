@@ -3394,7 +3394,7 @@ s .main-header .main-box .logo-box .logo img {
 .clients-section {
   position: relative;
 
-  padding: 100px 0px 50px;
+  padding: 120px 0px 50px;
 }
 
 .clients-section .title-column {
@@ -8860,7 +8860,9 @@ s .main-header .main-box .logo-box .logo img {
 
 
 ***/
-
+#contact{
+  padding-top: 100px;
+}
 .contact-section {
   position: relative;
 

@@ -8,6 +8,7 @@
       $(".preloader").delay(200).fadeOut(500);
     }
   }
+  
 
   //Update Header Style and Scroll to Top
   function headerStyle() {
@@ -45,8 +46,8 @@
  					</li>
  					<li><a href="projects.html">Completed</a></li>
  					<li><a href="ongoing.html">Ongoing</a></li>
-  					<li><a href="#clients">Clients</a></li>
-  					<li><a href="#contact">Contact us</a></li>
+  					<li><a href="#clients" data-target="clients">Clients</a></li>
+  					<li><a href="#contact" data-target="contact">Contact us</a></li>
 			 </ul>`;
   let footer = `<div class="auto-container">
 
@@ -141,6 +142,24 @@
         });
     });
   }
+
+  let current= $("ul.navigation li.current");
+
+  document.addEventListener("scroll",()=>{
+    if(window.scrollY+70 >= $("#contact").offset().top && window.scrollY+70 < $("#clients").offset().top){
+      $(".current").removeClass("current");
+      $('[data-target="contact"]').parent().addClass("current");
+      
+    }
+    else if(window.scrollY+70 >= $("#clients").offset().top && window.scrollY+70 < $("footer").offset().top){
+      $(".current").removeClass("current");
+      $('[data-target="clients"]').parent().addClass("current");
+    }
+    else {
+      $(".current").removeClass("current")
+      current.addClass("current")
+    }
+  })
 
   //Submenu Dropdown Toggle
 
