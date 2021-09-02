@@ -4200,7 +4200,7 @@ s .main-header .main-box .logo-box .logo img {
   border: 0.1px solid rgba(219, 219, 219, 0.5);
 }
 .default-portfolio-item .info {
-  box-shadow: -1px 1px 16px 0px #d6d6d68a;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
   padding: 13px;
   min-height: 164px;
 }
@@ -7469,7 +7469,7 @@ s .main-header .main-box .logo-box .logo img {
 .project-page-section {
   position: relative;
 
-  padding: 100px 0px 0px;
+  padding: 100px 0px 100px;
 }
 
 .project-page-section .filters {
