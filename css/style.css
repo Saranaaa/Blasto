@@ -7220,7 +7220,8 @@ s .main-header .main-box .logo-box .logo img {
   position: relative;
 
   width: 100%;
-
+  max-height: 380px;
+  object-fit: cover;
   display: block;
 }
 
@@ -8861,7 +8862,8 @@ s .main-header .main-box .logo-box .logo img {
 
 ***/
 #contact{
-  padding-top: 100px;
+  padding: 150px 0;
+  background: linear-gradient(-15deg , #2c6190, transparent);
 }
 .contact-section {
   position: relative;
